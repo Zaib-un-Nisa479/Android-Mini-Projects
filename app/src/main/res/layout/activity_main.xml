@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF5722"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile App Development"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select an App"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnTicTacToe"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Tic-Tac-Toe Game"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Calculator"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnMemoryCard"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Memory Flip Card"
+        android:textSize="18sp"
+        android:backgroundTint="#9C27B0" />
+
+</LinearLayout>
